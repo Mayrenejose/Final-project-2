@@ -1,0 +1,30 @@
+
+<div class="boxTitle">
+    <h1>Login</h1>
+</div>
+
+<div class="containerRegister">
+    <div class="login-box">
+        <h2>Login</h2>
+        <form id="login-form" action="/session/login" method="post">
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input class="inputRegister" type="email" id="emailRegister" name="email">
+            </div>
+            <div class="input-container">
+                <label for="contraseña">Contraseña:</label>
+                <input class="inputRegister" type="password" id="passwordRegister" name="password">
+            </div>
+            <button class="btnChat" type="submit" id="submitRegister">Enviar</button>
+        </form>
+
+        <div class="linkRegister">
+            <a href="/register">Registrate</a>
+        </div>
+        <div class="linkRegister">
+            <a href="/session/github">Inicia con GitHub</a>
+        </div>
+    </div>
+</div>
+
+<script src="/js/login/index.js"></script>
